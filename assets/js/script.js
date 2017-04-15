@@ -36,3 +36,12 @@ function control()
 }
 
 control();
+
+function alertLow()
+{
+    var oReq = new XMLHttpRequest();
+    //oReq.onload = reqListener;
+    oReq.open("get","https://maker.ifttt.com/trigger/Danger-Low/with/key/cZBUE78qNT32UHA8UJmG5N",true);
+    oReq.send;
+}    
+    
